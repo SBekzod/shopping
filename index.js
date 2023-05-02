@@ -7,6 +7,8 @@ fs.readFile("sample.txt", "utf8", function (err, data) {
 });
 
 // EXTERNAL MODULE
+const moment = require("moment");
+const time = moment().format("YYYY-MM-DD HH:mm");
+console.log(`Time is now: ${time}`);
 
 // FILE MODULE
-
